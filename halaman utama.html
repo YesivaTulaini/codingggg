@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Website Multi-Halaman</title>
+    <link rel="stylesheet" href="style new.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="loginPage">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="mainContent" class="hidden">
+        <div class="main-container">
+            <h1>Hi Selamat Datang</h1>
+            <nav>
+                <button onclick="window.location.href='home.html'">Kucing Kesayanganku</button>
+                <button onclick="window.location.href='about.html'">Daftar Daftar</button>
+                <button onclick="window.location.href='contact.html'">Informasi Produk</button>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
